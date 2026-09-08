@@ -6,8 +6,9 @@ function App() {
   return (
     <>
       <Header />
-
       <Hero />
+
+      {/* Acá vamos a agregar las siguientes secciones */}
 
       <Footer />
     </>
