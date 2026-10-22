@@ -17,7 +17,7 @@ function Header() {
           <img
             src="/logo5.jpg"
             alt="Logo del curso"
-            className="h-auto w-50 rounded-2xl p-0.5 object-contain "
+            className="h-auto w-40 rounded-2xl p-0.5 object-contain "
           />
         </a>
 
