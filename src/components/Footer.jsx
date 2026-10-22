@@ -5,10 +5,10 @@ function Footer() {
         <div className="grid gap-10 md:grid-cols-2">
           {/* Información */}
           <div>
-            <h2 className="text-2xl font-extrabold">English Course</h2>
+            <h2 className="text-2xl font-extrabold">Parnaíba Academy</h2>
 
             <p className="mt-3 max-w-md text-sm leading-6 text-blue-100">
-              Un método práctico para aprender inglés, desarrollar tus
+              Un método práctico para aprender idiomas, desarrollar tus
               habilidades y ganar confianza para comunicarte.
             </p>
           </div>
@@ -18,13 +18,18 @@ function Footer() {
             <a
               href="#curso"
               className="text-sm font-semibold text-white transition hover:text-red-500">
-              El curso
+              Nuestros Cursos
             </a>
 
             <a
               href="#como-funciona"
               className="text-sm font-semibold text-white transition hover:text-red-500">
               Cómo funciona
+            </a>
+            <a
+              href="#sobre-nosotros"
+              className="text-sm font-semibold text-white transition hover:text-red-500">
+              Nosotros
             </a>
 
             <a
@@ -46,7 +51,7 @@ function Footer() {
 
         {/* Copyright */}
         <div className="flex flex-col gap-3 text-xs text-blue-200 sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 English Course. Todos los derechos reservados.</p>
+          <p>© 2026 Parnaíba Academy. Todos los derechos reservados.</p>
 
           <p>Desarrollado por Gabriel Rengifo</p>
         </div>

@@ -15,7 +15,7 @@ function Header() {
         {/* Logo */}
         <a href="/" className="shrink-0">
           <img
-            src="/logo2.jpg"
+            src="/logo5.jpg"
             alt="Logo del curso"
             className="h-auto w-50 rounded-2xl p-0.5 object-contain "
           />
@@ -26,13 +26,19 @@ function Header() {
           <a
             href="#curso"
             className="font-semibold text-white transition hover:text-gray-300">
-            El curso
+            Nuestros cursos
           </a>
 
           <a
             href="#como-funciona"
             className="font-semibold text-white transition hover:text-gray-300">
             Cómo funciona
+          </a>
+
+          <a
+            href="#sobre-nosotros"
+            className="font-semibold text-white transition hover:text-gray-300">
+            Nosotros
           </a>
 
           <a
@@ -89,7 +95,7 @@ function Header() {
             href="#curso"
             onClick={closeMenu}
             className="border-b border-gray-100 py-4 font-semibold text-blue-900 hover:text-red-600">
-            El curso
+            Nuestos Cursos
           </a>
 
           <a
@@ -97,6 +103,12 @@ function Header() {
             onClick={closeMenu}
             className="border-b border-gray-100 py-4 font-semibold text-blue-900 hover:text-red-600">
             Cómo funciona
+          </a>
+          <a
+            href="#sobre-nosotros"
+            onClick={closeMenu}
+            className="border-b border-gray-100 py-4 font-semibold text-blue-900 hover:text-red-600">
+            Nosotros
           </a>
 
           <a
